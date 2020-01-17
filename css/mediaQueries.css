@@ -1,0 +1,179 @@
+@media (min-width: 800px) and (max-width: 1300px) {
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	p {
+		font-size: 16px;
+	}
+	span {
+		font-size: 14px;
+	}
+
+	a {
+		font-size: 14px;
+	}
+
+	header {
+		grid-template-columns: 200px 1fr 200px;
+		grid-gap: 0px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.headerLogoWrapper {
+		height: 100px;
+		width: auto;
+		grid-row: 1;
+	}
+
+	.headerMenu,
+	.headerEditoriasWrapper {
+		display: none;
+	}
+
+	.hamburguerMenuBtn {
+		display: block;
+		justify-self: center;
+		grid-column: -2 / -1;
+		grid-row: 1;
+	}
+
+	.headerAtendimentoBtn {
+		justify-self: center;
+		grid-row: 1;
+	}
+
+	.heroNewsUnitWrapper {
+		grid-template-rows: 300px;
+	}
+
+	.lastNewsImg {
+		height: 180px;
+	}
+
+	.lastNewsWrapper,
+	.moreNewsPhotosWrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.moreNewsWrapper {
+		grid-column-gap: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 799px) {
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	p {
+		font-size: 16px;
+	}
+	span {
+		font-size: 14px;
+	}
+
+	a {
+		font-size: 14px;
+	}
+
+	.noticiasTextoWrapper,
+	.heroNewsWrapper,
+	.lastNewsWrapper {
+		grid-template-columns: 1fr;
+		grid-gap: 30px;
+	}
+
+	header {
+		grid-template-rows: auto;
+		grid-template-columns: 100px repeat(2, auto);
+		grid-gap: 20px;
+	}
+
+	.headerMenu,
+	.headerEditoriasWrapper {
+		display: none;
+	}
+
+	.headerLogoWrapper {
+		grid-row: 1;
+		height: 80px;
+	}
+
+	.headerAtendimentoBtn {
+		grid-row: 1;
+	}
+
+	.hamburguerMenuBtn {
+		display: block;
+		grid-row: 1;
+		grid-column: -2 / -1;
+	}
+
+	.heroNewsUnitWrapper {
+		grid-template-rows: 300px;
+	}
+
+	.lastNewsImg {
+		height: 180px;
+	}
+
+	.moreNewsWrapper,
+	.moreNewsPhotosWrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.moreNewsWrapper {
+		grid-gap: 30px;
+	}
+
+	.releaseMentionsText {
+		font-size: 20px;
+	}
+}
